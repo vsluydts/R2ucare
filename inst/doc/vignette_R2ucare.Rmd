@@ -57,10 +57,10 @@ dip.group = dipper$groups
 Split the dataset in females/males:
 ```{r, message=FALSE, warning=FALSE}
 mask = (dip.group == 'Female')
-dip.fem.hist = dip.hist[mask,]
+dip.fem.hist = dip.hist[mask]
 dip.fem.freq = dip.freq[mask]
 mask = (dip.group == 'Male')
-dip.mal.hist = dip.hist[mask,]
+dip.mal.hist = dip.hist[mask]
 dip.mal.freq = dip.freq[mask]
 ```
 
